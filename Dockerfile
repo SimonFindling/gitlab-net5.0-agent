@@ -1,4 +1,4 @@
-FROM mmcr.microsoft.com/dotnet/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
 # add dotnet global tools to path
 ENV PATH="$PATH:/root/.dotnet/tools"
