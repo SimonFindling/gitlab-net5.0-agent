@@ -12,3 +12,6 @@ RUN apk add --update py-pip \
     && apk add --update --virtual build-dependencies libffi-dev openssl-dev gcc python3-dev musl-dev make \
     && pip install azure-cli \
     && apk del build-dependencies
+    
+# install zip
+RUN apk add zip
